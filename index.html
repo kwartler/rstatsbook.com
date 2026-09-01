@@ -3,25 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>rstatsbook: Practical R Books by Ted Kwartler | Text Mining &amp; Sports Analytics</title>
-<meta name="description" content="Learn analytics by doing. Practical, code-first R books by Ted Kwartler, including Text Mining in Practice with R and Sports Analytics in Practice with R, plus datasets and course resources.">
+<title>rstatsbook: Learn R by Doing | Text Mining &amp; Sports Analytics by Ted Kwartler</title>
+<meta name="description" content="rstatsbook is the home of Ted Kwartler's practical R books, Text Mining in Practice with R and Sports Analytics in Practice with R, plus free datasets and course code on GitHub. Learn data science the way it is taught at Harvard and GSERM.">
 <meta name="author" content="Ted Kwartler">
-<meta name="keywords" content="Text Mining in Practice with R, Sports Analytics in Practice with R, Applied Sport Business Analytics, Ted Kwartler, R programming, text mining, NLP, natural language processing, sports analytics, data science books, R datasets">
+<meta name="keywords" content="Text Mining in Practice with R, Sports Analytics in Practice with R, Ted Kwartler, R programming, text mining, NLP, sports analytics, R datasets, data science books, learn R">
 <link rel="canonical" href="https://www.rstatsbook.com/">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="theme-color" content="#276DC3">
+<meta name="theme-color" content="#0a0c09">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="rstatsbook">
-<meta property="og:title" content="rstatsbook: Practical R Books by Ted Kwartler">
-<meta property="og:description" content="Learn analytics by doing. Code-first R books on text mining and sports analytics, plus datasets and course resources.">
+<meta property="og:title" content="rstatsbook: Learn R by Doing, by Ted Kwartler">
+<meta property="og:description" content="Practical R books, free datasets, and course code from Ted Kwartler: text mining and sports analytics you can run today.">
 <meta property="og:url" content="https://www.rstatsbook.com/">
 <meta property="og:image" content="https://www.rstatsbook.com/assets/og-image.png">
-
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@tkwartler">
-<meta name="twitter:title" content="rstatsbook: Practical R Books by Ted Kwartler">
-<meta name="twitter:description" content="Code-first R books on text mining and sports analytics, plus datasets and course resources.">
+<meta name="twitter:title" content="rstatsbook: Learn R by Doing, by Ted Kwartler">
+<meta name="twitter:description" content="Practical R books, free datasets, and course code: text mining and sports analytics you can run today.">
 <meta name="twitter:image" content="https://www.rstatsbook.com/assets/og-image.png">
 
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -31,24 +30,54 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Books and courses by Ted Kwartler",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "item": {
-      "@type": "Book", "name": "Text Mining in Practice with R",
-      "author": { "@type": "Person", "name": "Ted Kwartler", "url": "https://tedkwartler.com/" },
-      "inLanguage": "en", "about": ["Text Mining", "Natural Language Processing", "R programming"],
-      "url": "https://www.amazon.com/Ted-Kwartler/e/B0725KCW27" } },
-    { "@type": "ListItem", "position": 2, "item": {
-      "@type": "Book", "name": "Sports Analytics in Practice with R",
-      "author": { "@type": "Person", "name": "Ted Kwartler", "url": "https://tedkwartler.com/" },
-      "inLanguage": "en", "about": ["Sports Analytics", "R programming"],
-      "url": "https://www.rstatsbook.com/" } },
-    { "@type": "ListItem", "position": 3, "item": {
-      "@type": "Book", "name": "Applied Sport Business Analytics",
-      "author": { "@type": "Person", "name": "Ted Kwartler" },
-      "inLanguage": "en", "about": ["Business Analytics", "Sports", "NLP"],
-      "url": "https://www.rstatsbook.com/" } }
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.rstatsbook.com/#website",
+      "url": "https://www.rstatsbook.com/",
+      "name": "rstatsbook",
+      "description": "Practical R books, datasets, and course code by Ted Kwartler.",
+      "author": { "@id": "https://tedkwartler.com/#person" },
+      "publisher": { "@id": "https://tedkwartler.com/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://tedkwartler.com/#person",
+      "name": "Ted Kwartler",
+      "alternateName": "Edward Kwartler",
+      "url": "https://tedkwartler.com/",
+      "jobTitle": "Managing Director, Responsible AI",
+      "worksFor": { "@type": "Organization", "name": "Accenture" },
+      "knowsAbout": ["R programming", "Text Mining", "Natural Language Processing", "Sports Analytics", "Responsible AI", "Generative AI", "Data Science"],
+      "sameAs": [
+        "https://tedkwartler.com/",
+        "https://www.linkedin.com/in/edwardkwartler/",
+        "https://github.com/kwartler",
+        "https://twitter.com/tkwartler",
+        "https://extension.harvard.edu/faculty/ted-kwartler/",
+        "https://www.datacamp.com/instructors/ehk116",
+        "https://www.amazon.com/Ted-Kwartler/e/B0725KCW27",
+        "https://llmba.com/"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Books by Ted Kwartler",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@type": "Book", "name": "Text Mining in Practice with R", "author": { "@id": "https://tedkwartler.com/#person" }, "inLanguage": "en", "url": "https://www.amazon.com/Ted-Kwartler/e/B0725KCW27" } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "Book", "name": "Sports Analytics in Practice with R", "author": { "@id": "https://tedkwartler.com/#person" }, "inLanguage": "en", "url": "https://www.rstatsbook.com/" } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "Book", "name": "Applied Sport Business Analytics", "author": { "@id": "https://tedkwartler.com/#person" }, "inLanguage": "en", "url": "https://www.rstatsbook.com/" } }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Who is the author of the rstatsbook books?", "acceptedAnswer": { "@type": "Answer", "text": "Ted Kwartler, Managing Director of Responsible AI at Accenture, a Harvard Extension School instructor, and former field CTO for generative AI at DataRobot. Learn more at tedkwartler.com." } },
+        { "@type": "Question", "name": "Where can I get the datasets and code?", "acceptedAnswer": { "@type": "Answer", "text": "All companion datasets and scripts are free and open on Ted Kwartler's GitHub at github.com/kwartler, especially the text_mining and teaching-datasets repositories." } },
+        { "@type": "Question", "name": "What is Text Mining in Practice with R about?", "acceptedAnswer": { "@type": "Answer", "text": "It is a hands-on guide to natural language processing in R, covering data collection, cleaning, sentiment analysis, clustering, topic modeling, and prediction, all with reproducible code." } },
+        { "@type": "Question", "name": "Where can I learn more from Ted Kwartler?", "acceptedAnswer": { "@type": "Answer", "text": "Visit tedkwartler.com for his full work, plus Harvard Extension School, DataCamp, and the LLMBA program at llmba.com." } }
+      ]
+    }
   ]
 }
 </script>
@@ -60,10 +89,10 @@
     <button class="menu-btn" aria-label="Menu" aria-expanded="false">&#9776;</button>
     <nav class="nav-links" id="menu">
       <a href="#books">Books</a>
-      <a href="#nlp">Text Mining</a>
-      <a href="#sports">Sports Analytics</a>
-      <a href="#data">Data</a>
-      <a href="#about">About</a>
+      <a href="#textmining">Text Mining</a>
+      <a href="#sports">Sports</a>
+      <a href="#data">Data &amp; Code</a>
+      <a href="#author">Author</a>
       <a class="nav-cta" href="https://tedkwartler.com/">tedkwartler.com</a>
     </nav>
   </div>
@@ -71,96 +100,119 @@
 
 <main>
 <!-- HERO -->
-<section class="hero" style="background:var(--bg)">
+<section class="hero">
   <div class="wrap">
-    <p class="eyebrow">Practical R books &middot; by Ted Kwartler</p>
-    <h1>Learn analytics <span class="accent">by doing</span>.</h1>
-    <p class="lead">Code-first books that teach text mining and sports analytics in R, with real datasets, working code, and results you can reproduce. No fluff, just practice.</p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="#books">Browse the books</a>
-      <a class="btn btn-ghost" href="#data">Get the datasets</a>
+    <div class="hero-grid">
+      <div>
+        <p class="kicker">Practical R by Ted Kwartler</p>
+        <h1>Learn R <span class="grad">by doing</span>, not by reading.</h1>
+        <p class="lead">Code-first books, free datasets, and real course material for text mining and sports analytics in R. The same practice-driven approach taught at Harvard and GSERM, open for everyone.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#books">Explore the books</a>
+          <a class="btn btn-ghost" href="#data">Get the datasets</a>
+        </div>
+        <div class="hero-meta">
+          <span class="chip"><b>2</b> practical R books</span>
+          <span class="chip"><b>100+</b> GitHub stars on course repos</span>
+          <span class="chip"><b>free</b> datasets &amp; code</span>
+        </div>
+      </div>
+      <div class="console" aria-hidden="true">
+        <div class="bar"><span class="g"></span><span></span><span></span><span class="path">text_mining.R</span></div>
+<pre><span class="cm"># from the book: build a corpus, then analyze</span>
+<span class="pr">&gt;</span> <span class="fn">library</span>(tm)
+<span class="pr">&gt;</span> corpus <span class="op">&lt;-</span> <span class="fn">VCorpus</span>(<span class="fn">VectorSource</span>(text))
+<span class="pr">&gt;</span> corpus <span class="op">&lt;-</span> <span class="fn">tm_map</span>(corpus, content_transformer(tolower))
+<span class="pr">&gt;</span> tdm    <span class="op">&lt;-</span> <span class="fn">TermDocumentMatrix</span>(corpus)
+
+<span class="cm"># most frequent terms</span>
+<span class="pr">&gt;</span> <span class="fn">findFreqTerms</span>(tdm, lowfreq <span class="op">=</span> <span class="st">50</span>)
+<span class="op">[1]</span> <span class="st">"data"  "learn"  "practice"  "text"</span><span class="cursor"></span>
+</pre>
+      </div>
     </div>
   </div>
 </section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="wrap row">
+    <span class="lbl">Taught &amp; used at</span>
+    <div class="items">
+      <span>Harvard Extension</span><span>GSERM</span><span>University of St. Gallen</span><span>DataCamp</span><span>Amazon</span>
+    </div>
+  </div>
+</div>
 
 <!-- BOOKS -->
 <section id="books">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">The books</p>
+      <p class="kicker">The books</p>
       <h2>Applied analytics you can run today</h2>
-      <p>Each title pairs clear explanation with reproducible R code, so you finish a chapter with a working skill, not just theory.</p>
+      <p>Every chapter pairs clear explanation with reproducible R code, so you finish with a working skill, not just theory. Written by <a href="https://tedkwartler.com/">Ted Kwartler</a>.</p>
     </div>
     <div class="books">
       <article class="book">
         <div class="cover c1">Text Mining in Practice with R</div>
         <div>
-          <span class="tag">Text Mining &middot; NLP</span>
+          <span class="tag">text mining / nlp</span>
           <h3>Text Mining in Practice with R</h3>
-          <p>A hands-on path through natural language processing in R: gathering text, cleaning it, and running sentiment, clustering, topic, and predictive analyses on real corpora.</p>
-          <div class="links">
-            <a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Amazon &rarr;</a>
-            <a href="#nlp">Datasets &rarr;</a>
-          </div>
+          <p>A hands-on path through NLP in R: gathering text, cleaning it, then sentiment, clustering, topic modeling, and prediction on real corpora.</p>
+          <div class="links"><a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Amazon &rarr;</a><a href="https://github.com/kwartler/text_mining">Data &amp; code &rarr;</a></div>
         </div>
       </article>
       <article class="book">
         <div class="cover c2">Sports Analytics in Practice with R</div>
         <div>
-          <span class="tag">Sports &middot; R</span>
+          <span class="tag">sports / r</span>
           <h3>Sports Analytics in Practice with R</h3>
-          <p>Turn play, performance, and fan data into decisions. Applied R workflows for the questions teams, leagues, and analysts actually ask.</p>
-          <div class="links">
-            <a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Amazon &rarr;</a>
-            <a href="#sports">Datasets &rarr;</a>
-          </div>
+          <p>Turn play, performance, and fan data into decisions with applied R workflows for the questions teams and analysts actually ask.</p>
+          <div class="links"><a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Amazon &rarr;</a><a href="#sports">Data &amp; code &rarr;</a></div>
         </div>
       </article>
       <article class="book">
         <div class="cover c3">Applied Sport Business Analytics</div>
         <div>
-          <span class="tag">Contributed chapters</span>
+          <span class="tag">contributed chapters</span>
           <h3>Applied Sport Business Analytics</h3>
           <p>Contributed chapters on natural language processing and applied business analytics for the business of sport.</p>
-          <div class="links">
-            <a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Amazon &rarr;</a>
-          </div>
+          <div class="links"><a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Amazon &rarr;</a></div>
         </div>
       </article>
       <article class="book">
-        <div class="cover c4">Courses on DataCamp</div>
+        <div class="cover c4">Learn online on DataCamp</div>
         <div>
-          <span class="tag">Interactive courses</span>
-          <h3>Learn R online</h3>
-          <p>Prefer to learn hands-on in the browser? Four interactive courses on text mining and machine learning in R, taken by learners worldwide.</p>
-          <div class="links">
-            <a href="https://www.datacamp.com/instructors/ehk116">DataCamp &rarr;</a>
-          </div>
+          <span class="tag">interactive courses</span>
+          <h3>Prefer to learn in the browser?</h3>
+          <p>Four interactive courses on text mining and machine learning in R by Ted Kwartler, taken by learners worldwide.</p>
+          <div class="links"><a href="https://www.datacamp.com/instructors/ehk116">DataCamp &rarr;</a></div>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<!-- NLP / TEXT MINING -->
-<section id="nlp">
+<!-- TEXT MINING -->
+<section id="textmining">
   <div class="wrap">
     <div class="topic">
       <div class="txt">
-        <p class="eyebrow">Text Mining &amp; NLP</p>
+        <p class="kicker">Text Mining &amp; NLP</p>
         <h2>From raw text to real insight</h2>
-        <p><strong>Text Mining in Practice with R</strong> is built around doing the work: you pull text from the web and files, structure it into a corpus, and move through frequency analysis, sentiment, clustering, topic modeling, and prediction, all in reproducible R.</p>
-        <p>It is the same material Ted teaches at Harvard Extension School and internationally, distilled into a practical reference you can keep on your desk.</p>
+        <p><strong style="color:var(--text)">Text Mining in Practice with R</strong> is built around doing the work: pull text from the web and files, structure it into a corpus, and move through frequency analysis, sentiment, clustering, topic modeling, and prediction, all in reproducible R.</p>
+        <p>It is the same material <a href="https://tedkwartler.com/">Ted Kwartler</a> teaches at Harvard Extension School and internationally, distilled into a reference you keep on your desk.</p>
         <a class="btn btn-primary" href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Get the book &rarr;</a>
       </div>
       <div class="panel">
-        <h3>Text mining data &amp; code</h3>
+        <h3>&gt; text-mining resources</h3>
         <ul class="res">
-          <li><a href="https://github.com/kwartler">Companion code on GitHub <span class="arw">&rarr;</span></a></li>
-          <li><a href="https://github.com/kwartler">Example corpora &amp; datasets <span class="arw">&rarr;</span></a></li>
-          <li><a href="https://www.datacamp.com/instructors/ehk116">Text mining course (DataCamp) <span class="arw">&rarr;</span></a></li>
+          <li><a href="https://github.com/kwartler/text_mining">text_mining (book data &amp; code) <span class="arw">&rarr;</span></a></li>
+          <li><a href="https://github.com/kwartler/Harvard_NLP_Student">Harvard NLP course repo <span class="arw">&rarr;</span></a></li>
+          <li><a href="https://github.com/kwartler/GSERM_TextMining">GSERM Text Mining course <span class="arw">&rarr;</span></a></li>
+          <li><a href="https://www.datacamp.com/instructors/ehk116">Text mining course on DataCamp <span class="arw">&rarr;</span></a></li>
         </ul>
-        <p style="margin:16px 0 0;color:var(--muted);font-size:13.5px">Tip: install with <code>install.packages("tm")</code> to follow along.</p>
+        <p style="margin:16px 0 0;color:var(--dim);font-size:13px">Follow along with <code>install.packages("tm")</code>.</p>
       </div>
     </div>
   </div>
@@ -171,75 +223,133 @@
   <div class="wrap">
     <div class="topic rev">
       <div class="txt">
-        <p class="eyebrow">Sports Analytics</p>
-        <h2>Analytics for the business and play of sport</h2>
-        <p><strong>Sports Analytics in Practice with R</strong> applies data science to sport: performance, strategy, and the commercial side of the game. Every concept comes with R code and datasets so you can reproduce the analysis and adapt it to your own league or team.</p>
-        <p>Great for students, analysts, and anyone who wants to move from spreadsheets to reproducible, defensible analysis.</p>
+        <p class="kicker">Sports Analytics</p>
+        <h2>Analytics for the play and business of sport</h2>
+        <p><strong style="color:var(--text)">Sports Analytics in Practice with R</strong> applies data science to sport: performance, strategy, and the commercial side of the game, each concept shipped with R code and datasets you can reproduce and adapt to your own league or team.</p>
+        <p>Great for students, analysts, and anyone moving from spreadsheets to defensible, reproducible analysis.</p>
         <a class="btn btn-primary" href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Get the book &rarr;</a>
       </div>
       <div class="panel">
-        <h3>Sports data &amp; code</h3>
+        <h3>&gt; sports resources</h3>
         <ul class="res">
-          <li><a href="https://github.com/kwartler">Companion code on GitHub <span class="arw">&rarr;</span></a></li>
-          <li><a href="https://github.com/kwartler">Sample sports datasets <span class="arw">&rarr;</span></a></li>
+          <li><a href="https://github.com/kwartler/NLP_SportsAnalytics">NLP_SportsAnalytics (book data) <span class="arw">&rarr;</span></a></li>
+          <li><a href="https://github.com/kwartler/Practical_Sports_Analytics">Practical_Sports_Analytics <span class="arw">&rarr;</span></a></li>
+          <li><a href="https://github.com/kwartler/teaching-datasets">teaching-datasets hub <span class="arw">&rarr;</span></a></li>
           <li><a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Applied Sport Business Analytics <span class="arw">&rarr;</span></a></li>
         </ul>
-        <p style="margin:16px 0 0;color:var(--muted);font-size:13.5px">All examples run in base R plus a few common packages.</p>
+        <p style="margin:16px 0 0;color:var(--dim);font-size:13px">Examples run in base R plus a few common packages.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- DATA HUB -->
+<!-- DATA & CODE HUB -->
 <section id="data">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">Data &amp; resources</p>
-      <h2>Everything you need to follow along</h2>
-      <p>Datasets and companion code for the books live on GitHub, free and open. Clone a repo, open the scripts, and run every example yourself.</p>
+      <p class="kicker">Data &amp; code</p>
+      <h2>Everything is free and open on GitHub</h2>
+      <p>Datasets, scripts, and full course material live on <a href="https://github.com/kwartler">Ted Kwartler's GitHub</a>. Clone a repo, open the scripts, and run every example yourself.</p>
     </div>
-    <div class="books">
-      <article class="book">
-        <div class="cover c1" style="background:linear-gradient(150deg,#1b1f2a,#276DC3)">GitHub Code &amp; Data</div>
+    <div class="repos">
+      <a class="repo" href="https://github.com/kwartler/text_mining">
+        <div class="top"><span class="ic">&#9679;</span> kwartler / text_mining</div>
+        <h3>text_mining</h3>
+        <p>Companion data and scripts for Text Mining in Practice with R.</p>
+        <div class="meta"><span class="star">&#9733; 55</span><span>R</span></div>
+      </a>
+      <a class="repo" href="https://github.com/kwartler/Harvard_DataMining_Business_Student">
+        <div class="top"><span class="ic">&#9679;</span> kwartler / Harvard_DataMining_Business_Student</div>
+        <h3>Harvard Data Mining</h3>
+        <p>Student repo for Harvard CSCI E-96, Data Mining for Business.</p>
+        <div class="meta"><span class="star">&#9733; 54</span><span>R</span></div>
+      </a>
+      <a class="repo" href="https://github.com/kwartler/teaching-datasets">
+        <div class="top"><span class="ic">&#9679;</span> kwartler / teaching-datasets</div>
+        <h3>teaching-datasets</h3>
+        <p>A hub of datasets used across Ted Kwartler's courses and books.</p>
+        <div class="meta"><span>datasets</span><span>CSV</span></div>
+      </a>
+      <a class="repo" href="https://github.com/kwartler/GSERM_TextMining">
+        <div class="top"><span class="ic">&#9679;</span> kwartler / GSERM_TextMining</div>
+        <h3>GSERM_TextMining</h3>
+        <p>Student repo for the GSERM Text Mining course at the University of St. Gallen.</p>
+        <div class="meta"><span>course</span><span>R</span></div>
+      </a>
+      <a class="repo" href="https://github.com/kwartler/Harvard_NLP_Student">
+        <div class="top"><span class="ic">&#9679;</span> kwartler / Harvard_NLP_Student</div>
+        <h3>Harvard_NLP_Student</h3>
+        <p>Materials and data for Harvard's Natural Language Processing course.</p>
+        <div class="meta"><span>course</span><span>R</span></div>
+      </a>
+      <a class="repo" href="https://github.com/kwartler/NLP_SportsAnalytics">
+        <div class="top"><span class="ic">&#9679;</span> kwartler / NLP_SportsAnalytics</div>
+        <h3>NLP_SportsAnalytics</h3>
+        <p>Data used in the Sports Analytics in Practice with R book.</p>
+        <div class="meta"><span>data</span><span>R</span></div>
+      </a>
+    </div>
+    <div style="margin-top:22px"><a class="btn btn-ghost" href="https://github.com/kwartler">View all repos on github.com/kwartler &rarr;</a></div>
+  </div>
+</section>
+
+<!-- AUTHOR / LINK WHEEL -->
+<section id="author">
+  <div class="wrap">
+    <div class="author">
+      <div class="author-grid">
+        <div class="mono">TK</div>
         <div>
-          <span class="tag">Free &amp; open</span>
-          <h3>Companion GitHub</h3>
-          <p>Scripts, datasets, and teaching materials for the books and courses.</p>
-          <div class="links"><a href="https://github.com/kwartler">Open GitHub &rarr;</a></div>
+          <p class="kicker">About the author</p>
+          <h2>Written by <a href="https://tedkwartler.com/" style="color:inherit">Ted Kwartler</a></h2>
+          <p><a href="https://tedkwartler.com/">Ted Kwartler</a> is Managing Director of Responsible AI at Accenture, an instructor at Harvard Extension School, and a former field CTO for generative AI at DataRobot. He has led data teams at Amazon and Liberty Mutual and contributes to the World Economic Forum on responsible AI.</p>
+          <p>He wrote these books for the same reason he teaches: analytics is best learned by doing. For his full work, talks, and writing on AI, visit <a href="https://tedkwartler.com/">tedkwartler.com</a>.</p>
+          <div class="roles">
+            <span>MD, Responsible AI @ Accenture</span>
+            <span>Harvard Extension instructor</span>
+            <span>Author &amp; DataCamp course creator</span>
+          </div>
+          <div class="wheel">
+            <a class="primary" href="https://tedkwartler.com/">Visit tedkwartler.com</a>
+            <a href="https://www.linkedin.com/in/edwardkwartler/" rel="me">LinkedIn</a>
+            <a href="https://github.com/kwartler" rel="me">GitHub</a>
+            <a href="https://extension.harvard.edu/faculty/ted-kwartler/">Harvard</a>
+            <a href="https://llmba.com/">LLMBA</a>
+          </div>
         </div>
-      </article>
-      <article class="book">
-        <div class="cover c4" style="background:linear-gradient(150deg,#2a1e57,#6f4bd8)">DataCamp Courses</div>
-        <div>
-          <span class="tag">Interactive</span>
-          <h3>Practice in the browser</h3>
-          <p>Guided, hands-on courses on text mining and machine learning in R.</p>
-          <div class="links"><a href="https://www.datacamp.com/instructors/ehk116">View courses &rarr;</a></div>
-        </div>
-      </article>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about">
+<!-- FAQ -->
+<section id="faq">
   <div class="wrap">
     <div class="section-head">
-      <p class="eyebrow">About the author</p>
-      <h2>Who is behind these books</h2>
+      <p class="kicker">FAQ</p>
+      <h2>Questions, answered</h2>
     </div>
-    <div class="about-grid">
-      <div>
-        <p><strong>Ted Kwartler</strong> is Managing Director of Responsible AI at Accenture, an instructor at Harvard Extension School, and a former field CTO for generative AI at DataRobot. He has led data teams at Amazon and Liberty Mutual and contributes to the World Economic Forum on responsible AI.</p>
-        <p>He wrote these books for the same reason he teaches: analytics is best learned by doing. Expect real datasets, working R code, and a bias toward getting results, not memorizing theory.</p>
-        <p>Explore his full work, talks, and writing at <a href="https://tedkwartler.com/">tedkwartler.com</a>.</p>
-      </div>
-      <aside class="author-card">
-        <div class="mono">TK</div>
-        <h3>Ted Kwartler</h3>
-        <p class="who">Author &middot; Harvard instructor &middot; Responsible AI leader</p>
-        <a class="btn btn-primary" href="https://tedkwartler.com/">Visit tedkwartler.com &rarr;</a>
-      </aside>
+    <div class="faq">
+      <details open>
+        <summary>Who is the author of these books?</summary>
+        <div class="a"><a href="https://tedkwartler.com/">Ted Kwartler</a> is Managing Director of Responsible AI at Accenture, a Harvard Extension School instructor, and former field CTO for generative AI at DataRobot. See his full profile at <a href="https://tedkwartler.com/">tedkwartler.com</a>.</div>
+      </details>
+      <details>
+        <summary>Where can I get the datasets and code?</summary>
+        <div class="a">Everything is free and open on <a href="https://github.com/kwartler">github.com/kwartler</a>, especially the <a href="https://github.com/kwartler/text_mining">text_mining</a> and <a href="https://github.com/kwartler/teaching-datasets">teaching-datasets</a> repositories.</div>
+      </details>
+      <details>
+        <summary>What is Text Mining in Practice with R about?</summary>
+        <div class="a">It is a hands-on guide to natural language processing in R: data collection, cleaning, sentiment, clustering, topic modeling, and prediction, all with reproducible code you run yourself.</div>
+      </details>
+      <details>
+        <summary>Do I need to know R already?</summary>
+        <div class="a">Basic familiarity helps, but the books are written to teach by doing. If you are brand new, start with the free datasets and the intro material on <a href="https://www.datacamp.com/instructors/ehk116">DataCamp</a>.</div>
+      </details>
+      <details>
+        <summary>Where can I learn more from Ted Kwartler?</summary>
+        <div class="a">Visit <a href="https://tedkwartler.com/">tedkwartler.com</a> for his work on responsible and generative AI, plus <a href="https://extension.harvard.edu/faculty/ted-kwartler/">Harvard Extension School</a>, <a href="https://www.datacamp.com/instructors/ehk116">DataCamp</a>, and the <a href="https://llmba.com/">LLMBA</a> program.</div>
+      </details>
     </div>
   </div>
 </section>
@@ -247,8 +357,30 @@
 
 <footer class="site">
   <div class="wrap">
-    <div>&copy; <span id="year">2026</span> Ted Kwartler &middot; rstatsbook</div>
-    <div><a href="https://tedkwartler.com/">tedkwartler.com</a> &nbsp;|&nbsp; <a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">Amazon</a> &nbsp;|&nbsp; <a href="https://github.com/kwartler">GitHub</a></div>
+    <div class="cols">
+      <nav>
+        <span class="h">Books</span>
+        <a href="#textmining">Text Mining in Practice with R</a>
+        <a href="#sports">Sports Analytics in Practice with R</a>
+        <a href="https://www.amazon.com/Ted-Kwartler/e/B0725KCW27">On Amazon</a>
+      </nav>
+      <nav>
+        <span class="h">Data &amp; code</span>
+        <a href="https://github.com/kwartler">github.com/kwartler</a>
+        <a href="https://github.com/kwartler/text_mining">text_mining</a>
+        <a href="https://github.com/kwartler/teaching-datasets">teaching-datasets</a>
+      </nav>
+      <nav>
+        <span class="h">Ted Kwartler</span>
+        <a href="https://tedkwartler.com/">tedkwartler.com</a>
+        <a href="https://extension.harvard.edu/faculty/ted-kwartler/">Harvard Extension</a>
+        <a href="https://llmba.com/">LLMBA</a>
+      </nav>
+    </div>
+    <div class="base">
+      <div>&copy; <span id="year">2026</span> Ted Kwartler &middot; rstatsbook</div>
+      <div>Built by <a href="https://tedkwartler.com/">Ted Kwartler</a> &middot; <a href="https://github.com/kwartler">GitHub</a></div>
+    </div>
   </div>
 </footer>
 
