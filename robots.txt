@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.rstatsbook.com/sitemap.xml
+
+# LLM overview: https://www.rstatsbook.com/llms.txt

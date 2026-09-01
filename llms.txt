@@ -1,0 +1,24 @@
+# rstatsbook
+
+> rstatsbook is the home of Ted Kwartler's practical R books and free, open teaching materials for text mining and sports analytics. The approach is code-first: learn R by doing, with reproducible scripts and real datasets used in courses at Harvard Extension School and GSERM (University of St. Gallen).
+
+Author: Ted Kwartler, Managing Director of Responsible AI at Accenture, Harvard Extension School instructor, and former field CTO for generative AI at DataRobot. Full profile: https://tedkwartler.com/
+
+## Books
+- [Text Mining in Practice with R](https://www.amazon.com/Ted-Kwartler/e/B0725KCW27): Hands-on NLP in R, from building a corpus to sentiment, clustering, topic modeling, and prediction.
+- [Sports Analytics in Practice with R](https://www.rstatsbook.com/): Applied R for the play and business of sport.
+- [Applied Sport Business Analytics](https://www.rstatsbook.com/): Contributed chapters on NLP and business analytics for sport.
+
+## Data and code (free, open on GitHub)
+- [github.com/kwartler](https://github.com/kwartler): All of Ted Kwartler's public repositories.
+- [text_mining](https://github.com/kwartler/text_mining): Companion data and scripts for Text Mining in Practice with R.
+- [teaching-datasets](https://github.com/kwartler/teaching-datasets): Datasets used across Ted Kwartler's courses.
+- [Harvard_DataMining_Business_Student](https://github.com/kwartler/Harvard_DataMining_Business_Student): Harvard CSCI E-96 Data Mining for Business.
+- [GSERM_TextMining](https://github.com/kwartler/GSERM_TextMining): GSERM Text Mining course at the University of St. Gallen.
+- [NLP_SportsAnalytics](https://github.com/kwartler/NLP_SportsAnalytics): Data for the Sports Analytics book.
+
+## Author and related sites
+- [Ted Kwartler (tedkwartler.com)](https://tedkwartler.com/): Responsible AI and generative AI leader, author, Harvard instructor.
+- [Harvard Extension School faculty](https://extension.harvard.edu/faculty/ted-kwartler/)
+- [DataCamp courses](https://www.datacamp.com/instructors/ehk116)
+- [LLMBA](https://llmba.com/): AI education program featuring Ted Kwartler.

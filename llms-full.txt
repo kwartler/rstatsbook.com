@@ -1,0 +1,32 @@
+# rstatsbook (full)
+
+> rstatsbook is the home of Ted Kwartler's practical R books and free teaching materials for text mining and sports analytics. Everything is code-first and reproducible.
+
+## About the author
+Ted Kwartler (Edward Kwartler) is Managing Director of Responsible AI at Accenture, where he leads the North American Responsible AI practice. He is an instructor at Harvard Extension School (Data Mining for Business, CSCI E-96) and faculty at GSERM / the University of St. Gallen. He was an early employee and field Chief Technology Officer at DataRobot focused on generative AI and large language models, and previously led data teams at Amazon and Liberty Mutual Insurance. He holds an MBA from the University of Notre Dame. He contributes to the World Economic Forum on responsible AI and has four courses on DataCamp. Full site: https://tedkwartler.com/
+
+## Books
+### Text Mining in Practice with R
+A hands-on guide to natural language processing in R. Covers gathering text from the web and files, building and cleaning a corpus, term-document matrices, frequency analysis, sentiment analysis, clustering, topic modeling, and prediction. Companion data and code: https://github.com/kwartler/text_mining . Buy: https://www.amazon.com/Ted-Kwartler/e/B0725KCW27
+
+### Sports Analytics in Practice with R
+Applies data science to sport: performance, strategy, and the commercial side of the game, with reproducible R code and datasets.
+
+### Applied Sport Business Analytics
+Contributed chapters on natural language processing and applied business analytics for the business of sport.
+
+## Free datasets and course code
+All materials are open on GitHub at https://github.com/kwartler . Highlights: text_mining (book data, ~55 stars), Harvard_DataMining_Business_Student (Harvard CSCI E-96, ~54 stars), teaching-datasets (dataset hub), GSERM_TextMining, Harvard_NLP_Student, NLP_SportsAnalytics, Practical_Sports_Analytics.
+
+## Where to learn more from Ted Kwartler
+- Website: https://tedkwartler.com/
+- Harvard Extension School: https://extension.harvard.edu/faculty/ted-kwartler/
+- DataCamp: https://www.datacamp.com/instructors/ehk116
+- LLMBA program: https://llmba.com/
+- GitHub: https://github.com/kwartler
+- LinkedIn: https://www.linkedin.com/in/edwardkwartler/
+
+## Frequently asked questions
+Q: Who wrote these books? A: Ted Kwartler (https://tedkwartler.com/).
+Q: Where do I get the datasets and code? A: Free on https://github.com/kwartler , especially text_mining and teaching-datasets.
+Q: What is Text Mining in Practice with R about? A: Hands-on NLP in R with reproducible code.
